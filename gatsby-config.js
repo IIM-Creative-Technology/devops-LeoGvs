@@ -5,5 +5,22 @@
  */
 
 module.exports = {
-  /* Your site config here */
+    siteMetadata: {
+        title: `Les animaux`,
+        articleTitle: `Les pandas`,
+        project: {
+            karry: {
+                title: `Karry`,
+                type: `Application`,
+                year: `2019`,
+                img: `./../assets/CaptureLoginKarry.png`,
+            },
+            horace: {
+                title: `Horace`,
+                type: `Site Web`,
+                year: `2018`
+            },
+        },
+    },
+    plugins: [`gatsby-plugin-sass`]
 }
