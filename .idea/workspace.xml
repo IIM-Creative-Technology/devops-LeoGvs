@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a51528f-9b15-4aa2-8afd-01f858279844" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +41,7 @@
           <entry key="html" value="2" />
           <entry key="ico" value="2" />
           <entry key="js" value="44" />
-          <entry key="json" value="11" />
+          <entry key="json" value="13" />
           <entry key="md" value="1" />
           <entry key="scss" value="3" />
           <entry key="svg" value="2" />
@@ -51,7 +52,7 @@
           <entry key="CSS" value="3" />
           <entry key="HTML" value="2" />
           <entry key="Image" value="2" />
-          <entry key="JSON" value="11" />
+          <entry key="JSON" value="13" />
           <entry key="JavaScript" value="44" />
           <entry key="Markdown" value="1" />
           <entry key="SCSS" value="3" />
@@ -116,11 +117,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87900">
-              <caret line="5860" column="13" selection-start-line="5860" selection-start-column="5" selection-end-line="5860" selection-end-column="7" />
+            <state relative-caret-position="536">
+              <caret line="5858" column="43" selection-start-line="5858" selection-start-column="43" selection-end-line="5858" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -215,6 +225,7 @@
         <option value="$PROJECT_DIR$/src/styles/main.scss" />
         <option value="$PROJECT_DIR$/src/components/list-project.js" />
         <option value="$PROJECT_DIR$/src/pages/horace.js" />
+        <option value="$PROJECT_DIR$/static.json" />
       </list>
     </option>
   </component>
@@ -377,17 +388,18 @@
       <workItem from="1593604185254" duration="200000" />
       <workItem from="1593618088631" duration="62000" />
       <workItem from="1601235627301" duration="314000" />
-      <workItem from="1601822821213" duration="2053000" />
+      <workItem from="1601822821213" duration="2447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55620000" />
+    <option name="totallyTimeSpent" value="56014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -402,7 +414,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25180724" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25180724" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -594,13 +606,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87900">
-          <caret line="5860" column="13" selection-start-line="5860" selection-start-column="5" selection-end-line="5860" selection-end-column="7" />
+        <state relative-caret-position="536">
+          <caret line="5858" column="43" selection-start-line="5858" selection-start-column="43" selection-end-line="5858" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
     </entry>
