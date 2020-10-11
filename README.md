@@ -1,3 +1,40 @@
+<h1 align="center">
+  Rendu Devops IIM
+</h1>
+
+1.  **Le projet**
+
+Pour ce rendu j'ai décidé d'automatiser le déploiement de mon portfolio personnel.
+Celui-ci a été crée en utilisant Gatsby, une solution pour la création de site static en React.
+
+Mon objectif principal a donc été de déployer ce projet sur Heroku tout en mettant en place des processus de test qui pourront bien sûr être amélioré par la suite.
+
+
+Lien vers la préprod: https://rendu-devops-preprod.herokuapp.com/
+
+Lien vers la prod: https://rendu-devops-prod.herokuapp.com/
+
+2.  **CI / CD**
+
+J'ai utilisé Github Action pour l'automatisation de mes tâches.
+
+Lors d'un push sur la branch master ou preprod, le script se lancera pour vérifier l'intégrité et le bon fonctionnement du code nouvellement poussé. De plus le déploiement sur l'app Heroku associé (prod ou preprod) se lancera automatiquement.
+
+Mon script de deploy est relativement simple dans les deux cas:
+  - j'installe les dependencies
+  - je m'assure de l'installation de la bonne version de node (celle conseillé pour les sites Gatsby)
+  - je teste mon code Javascript grâce à ESLint (qui a besoin d'une config particulière car j'utilise Gatsby)
+  - je build mon site Gatsby
+  - enfin je deploy sur Heroku en utilisant les paramètres de connexion de mon compte avec les secrets de Github
+  
+Toutes ces étapes permettent d'automatiser le build et la mise en ligne de mon site Gatsby tout en assurant un maintien et une vérification du nouveau code.
+  
+Ces étapes ne sont évidement qu'un début et tout cela est améliorable.
+La première amélioration pourrait être la mise en place de règles personnalisées avec ESLint, qui nous permettrait d'être encore plus sûre que le code que nous poussons ne contient aucune erreur.
+
+
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
