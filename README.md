@@ -5,9 +5,9 @@
 1.  **Le projet**
 
 Pour ce rendu j'ai décidé d'automatiser le déploiement de mon portfolio personnel.
-Celui-ci a été crée en utilisant Gatsby, une solution pour la création de site static en React.
+Celui-ci a été crée en utilisant Gatsby, une solution pour la création de sites static en React.
 
-Mon objectif principal a donc été de déployer ce projet sur Heroku tout en mettant en place des processus de test qui pourront bien sûr être amélioré par la suite.
+Mon objectif principal a donc été de déployer ce projet sur Heroku tout en mettant en place des processus de tests qui pourront bien sûr être améliorés par la suite.
 
 
 Lien vers la préprod: https://rendu-devops-preprod.herokuapp.com/
@@ -18,7 +18,7 @@ Lien vers la prod: https://rendu-devops-prod.herokuapp.com/
 
 J'ai utilisé Github Action pour l'automatisation de mes tâches.
 
-Lors d'un push sur la branch master ou preprod, le script se lancera pour vérifier l'intégrité et le bon fonctionnement du code nouvellement poussé. De plus le déploiement sur l'app Heroku associé (prod ou preprod) se lancera automatiquement.
+Lors d'un push sur la branch master ou preprod, le script se lancera pour vérifier l'intégrité et le bon fonctionnement du code nouvellement poussé. De plus le déploiement sur l'app Heroku associée (prod ou preprod) se lancera automatiquement.
 
 Mon script de deploy est relativement simple dans les deux cas:
   - j'installe les dependencies
