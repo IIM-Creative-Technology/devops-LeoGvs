@@ -1,0 +1,30 @@
+name: Deploy preprod website to Heroku
+
+on:
+  push:
+    branches:
+    - preprod
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install preprod dependencies
+      run: npm install
+    - name: install preprod node v12
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: eslint on preprod
+      uses: icrawl/action-eslint@v1
+    - name: Build Gatsby Site preprod
+      uses: jzweifel/gatsby-cli-github-action@master
+      with:
+        gatsby-arg: build
+    - name: Deploy to preprod app Heroku
+      uses: akhileshns/heroku-deploy@v3.5.7 # This is the action
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: ${{secrets.HEROKU_APP_PREPROD_NAME}}
+        heroku_email: ${{secrets.HEROKU_EMAIL}}
